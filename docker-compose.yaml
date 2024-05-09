@@ -10,8 +10,8 @@ services:
     volumes:
       - mongodb_data:/data/db
     environment:
-      MONGO_INITDB_ROOT_USERNAME: your_username
-      MONGO_INITDB_ROOT_PASSWORD: your_password
+      MONGO_INITDB_ROOT_USERNAME: vhcla
+      MONGO_INITDB_ROOT_PASSWORD: 123456
 
 volumes:
   mongodb_data:

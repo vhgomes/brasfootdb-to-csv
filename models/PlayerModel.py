@@ -8,9 +8,9 @@ from models.ExtraPlayerModel import Extra
 
 class Jogador(BaseModel):
     nome: str
-    team: Time
     estrela: bool
     pais: int
+    time: str = None
     idade: int
     posicao: int
     titular: bool
